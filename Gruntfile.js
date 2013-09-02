@@ -15,8 +15,9 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         src: 'md-docs/*.md',
-                        dest: 'html-docs',
-                        ext: '.html'
+                        dest: 'html-docs/tmp',
+                        ext: '.html',
+                        flatten:true
                     }
                 ],
                 options :{
@@ -47,10 +48,24 @@ module.exports = function (grunt) {
             },
             docs: {
                 files: ['md-docs/*.md'],
-                tasks: ['markdown'],
+                tasks: ['markdown','inlinecss'],
                 options: {
                     livereload: true
                 }
+            }
+        },
+
+        inlinecss: {
+            main: {
+                options: {
+                },
+                files: [ {
+                    expand: true,
+                    src: 'html-docs/tmp/*.html',
+                    dest: 'html-docs',
+                    ext: '.html',
+                    flatten:true
+                }]
             }
         }
     });
@@ -59,6 +74,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-inline-css');
     
     grunt.registerTask('serve', [ "connect", 'watch' ]);
 

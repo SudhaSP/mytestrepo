@@ -1,7 +1,7 @@
 Test and Behaviour Driven Development in Java
 =======================================================
 Knock down Java Test-Driven Development
----------------------------------------
+--------------------------------------
 
 A 3-day very comprehensive hands-on class on Behaviour Driven Development (BDD) and Test Driven Development (TDD).
 
