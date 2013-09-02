@@ -1,15 +1,17 @@
 Test and Behaviour Driven Development in Java
 =======================================================
+Knock down Java Test-Driven Development
+---------------------------------------
 
-A 3-day class on Behaviour Driven Development (BDD) and Test Driven Development (TDD)
+A 3-day very comprehensive hands-on class on Behaviour Driven Development (BDD) and Test Driven Development (TDD).
 
 
 *Course#*: JAVA-TDD
 *Duration*: 3 days
 *Prerequisites* : Students should have a good understanding of the Java Platform SE and EE.
 
-Objectives
-----------
+### Objectives
+
 - Test/Behaviour-Driven Development (TDD/**BDD**)
 - Writing unit tests (TDD)
 - Contrast with writing specifications (BDD)
@@ -25,5 +27,7 @@ Objectives
 - Intro: Acceptance Testing using **Selenium**
 - Some other discussions: JavaScript BDD with **Jasmine/Karma**, Using Scala **Specs2** for BDD Java development
 
+### Words from students..
 
+> Be wonderful for whoever lures, because each has been followed with reincarnation.
 
