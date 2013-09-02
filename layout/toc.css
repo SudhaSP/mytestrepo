@@ -1,0 +1,12 @@
+body {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  background-image: -webkit-radial-gradient(50% 50%, circle cover, #555a5f 0%, #1c1e20 100%); }
+
+#toc {
+  font-family: verdana;
+  font-size: 18px;
+  margin: auto 10% auto 10%; }
+  #toc h1 {
+    font-size: 60px;
+    color: #18a4b2; }
